@@ -14,7 +14,7 @@ This is for library authors who want to:
      * this lib does not yet support vendored modules that themselves depend on other modules, however:
      * if each vendored module also adheres to the conventions below, then you can list all of them in `vendoredModules` and it should still work fine
   * Can only import from a vendored module's top-level namespace (aka `import X from "other-pkg"` is fine, but `import X from "other-pkg/nested/thing"` is not)
-  * Dependencies are installed from npm (and their code is therefore in the `node_modules/` dir)
+  * Dependencies are installed from npm (and their code is therefore in the `node_modules/` dir), no support for bower-managed dependencies yet
 
 ## Conventions
 
