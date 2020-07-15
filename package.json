@@ -22,6 +22,6 @@
     "broccoli-merge-trees": "^0.2.1",
     "broccoli-stew": "^0.3.3",
     "exists-sync": "0.0.3",
-    "lodash": "^3.10.0"
+    "lodash": "^4.17.19"
   }
 }
